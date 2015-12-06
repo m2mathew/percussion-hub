@@ -10,9 +10,22 @@ module.exports = React.createClass({
 		});
 	},
 	render() {
+		let currentPage = Backbone.history.getFragment();
+
+		let links = [
+			<li key="home" className={currentPage === '' ? 'active' : ''}><a href="#">Home</a></li>,
+			<li key="schools" className={currentPage === 'schools' ? 'active' : ''}><a href="#schools">Schools</a></li>,
+			<li key="history" className={currentPage === 'history' ? 'active' : ''}><a href="#history">History</a></li>
+		];
+
 		return (
 			<div className="nav-wrapper blue darken-4">
-				<h1>Navigate</h1>
+				<div className="brand-logo left">
+					<a href="#">Region 3 Percussion</a>
+				</div>
+				<ul id="nav-mobile" className="right">
+					{links}
+				</ul>
 			</div>
 		);
 	}

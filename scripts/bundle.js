@@ -31747,6 +31747,26 @@ var React = require('react');
 module.exports = React.createClass({
 	displayName: 'exports',
 
+	render: function render() {
+		return React.createElement(
+			'div',
+			null,
+			React.createElement(
+				'h2',
+				null,
+				'History!'
+			)
+		);
+	}
+});
+
+},{"react":161}],163:[function(require,module,exports){
+'use strict';
+var React = require('react');
+
+module.exports = React.createClass({
+	displayName: 'exports',
+
 	getInitialState: function getInitialState() {
 		return {};
 	},
@@ -31759,7 +31779,7 @@ module.exports = React.createClass({
 				'div',
 				{ className: 'row' },
 				React.createElement(
-					'h1',
+					'h2',
 					null,
 					'All-Region Results'
 				)
@@ -31768,7 +31788,7 @@ module.exports = React.createClass({
 	}
 });
 
-},{"react":161}],163:[function(require,module,exports){
+},{"react":161}],164:[function(require,module,exports){
 'use strict';
 
 var React = require('react');
@@ -31785,24 +31805,81 @@ module.exports = React.createClass({
 		});
 	},
 	render: function render() {
+		var currentPage = Backbone.history.getFragment();
+
+		var links = [React.createElement(
+			'li',
+			{ key: 'home', className: currentPage === '' ? 'active' : '' },
+			React.createElement(
+				'a',
+				{ href: '#' },
+				'Home'
+			)
+		), React.createElement(
+			'li',
+			{ key: 'schools', className: currentPage === 'schools' ? 'active' : '' },
+			React.createElement(
+				'a',
+				{ href: '#schools' },
+				'Schools'
+			)
+		), React.createElement(
+			'li',
+			{ key: 'history', className: currentPage === 'history' ? 'active' : '' },
+			React.createElement(
+				'a',
+				{ href: '#history' },
+				'History'
+			)
+		)];
+
 		return React.createElement(
 			'div',
 			{ className: 'nav-wrapper blue darken-4' },
 			React.createElement(
-				'h1',
-				null,
-				'Navigate'
+				'div',
+				{ className: 'brand-logo left' },
+				React.createElement(
+					'a',
+					{ href: '#' },
+					'Region 3 Percussion'
+				)
+			),
+			React.createElement(
+				'ul',
+				{ id: 'nav-mobile', className: 'right' },
+				links
 			)
 		);
 	}
 });
 
-},{"backbone":1,"react":161}],164:[function(require,module,exports){
+},{"backbone":1,"react":161}],165:[function(require,module,exports){
+'use strict';
+var React = require('react');
+
+module.exports = React.createClass({
+	displayName: 'exports',
+
+	render: function render() {
+		return React.createElement(
+			'div',
+			null,
+			React.createElement(
+				'h2',
+				null,
+				'Schools!'
+			)
+		);
+	}
+});
+
+},{"react":161}],166:[function(require,module,exports){
 "use strict";
 
 Parse.initialize("ojxAI7TJorc3fVboJ9utxlGJFh3N12NR0qr7JEhp", "oMTauokDLBsa1KvvuKuBwOQaUJAlby6bSZN7QTyM");
 
-},{}],165:[function(require,module,exports){
+},{}],167:[function(require,module,exports){
 'use strict';
 var React = require('react');
 var ReactDOM = require('react-dom');
@@ -31814,16 +31891,26 @@ window.jQuery = $;
 
 var HomeComponent = require('./components/HomeComponent');
 var NavigationComponent = require('./components/NavigationComponent');
+var HistoryComponent = require('./components/HistoryComponent');
+var SchoolsComponent = require('./components/SchoolsComponent');
 
 var app = document.getElementById('app');
 var nav = document.getElementById('nav');
 
 var Router = Backbone.Router.extend({
 	routes: {
-		'': 'home'
+		'': 'home',
+		'history': 'history',
+		'schools': 'schools'
 	},
 	home: function home() {
 		ReactDOM.render(React.createElement(HomeComponent, null), app);
+	},
+	history: function history() {
+		ReactDOM.render(React.createElement(HistoryComponent, null), app);
+	},
+	schools: function schools() {
+		ReactDOM.render(React.createElement(SchoolsComponent, null), app);
 	}
 });
 
@@ -31832,7 +31919,7 @@ Backbone.history.start();
 
 ReactDOM.render(React.createElement(NavigationComponent, { router: r }), nav);
 
-},{"./components/HomeComponent":162,"./components/NavigationComponent":163,"./keys":164,"backbone":1,"jquery":4,"react":161,"react-dom":5}]},{},[165])
+},{"./components/HistoryComponent":162,"./components/HomeComponent":163,"./components/NavigationComponent":164,"./components/SchoolsComponent":165,"./keys":166,"backbone":1,"jquery":4,"react":161,"react-dom":5}]},{},[167])
 
 
 //# sourceMappingURL=bundle.js.map

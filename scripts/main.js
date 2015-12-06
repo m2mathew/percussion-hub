@@ -9,17 +9,31 @@ window.jQuery = $;
 
 let HomeComponent = require('./components/HomeComponent');
 let NavigationComponent = require('./components/NavigationComponent');
+let HistoryComponent = require('./components/HistoryComponent');
+let SchoolsComponent = require('./components/SchoolsComponent');
 
 let app = document.getElementById('app');
 let nav = document.getElementById('nav');
 
 let Router = Backbone.Router.extend({
 	routes: {
-		'': 'home'
+		'': 'home',
+		'history': 'history',
+		'schools': 'schools'
 	},
 	home: () => {
 		ReactDOM.render(
 			<HomeComponent />, app
+		);
+	},
+	history: () => {
+		ReactDOM.render(
+			<HistoryComponent />, app
+		);
+	},
+	schools: () => {
+		ReactDOM.render(
+			<SchoolsComponent />, app
 		);
 	}
 });

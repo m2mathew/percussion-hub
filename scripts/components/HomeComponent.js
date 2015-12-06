@@ -12,7 +12,7 @@ module.exports = React.createClass({
 		return (
 			<div className="container home-component">
 				<div className="row">
-					<h1>All-Region Results</h1>
+					<h2>All-Region Results</h2>
 				</div>
 			</div>
 		)
