@@ -18,7 +18,7 @@ Results can by sorted by:
 * Year
 
 
-#### Percussion Rotation
+### Percussion Rotation
 
 Zone 1 (snare) → Zone 2 (2/4 mallets) → Zone 3 (timpani)
 
