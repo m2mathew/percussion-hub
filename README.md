@@ -1,6 +1,6 @@
 # Region 3 - All-Region Percussion Auditions
 
-Annually hosted by Berkner HS
+Annually hosted by the [Berkner HS band](http://berknerband.com/home/) in Richardson, TX
 
 
 ### Description
@@ -20,7 +20,7 @@ Results can by sorted by:
 
 ### Percussion Rotation
 
-Zone 1 (snare) → Zone 2 (2/4 mallets) → Zone 3 (timpani)
+Zone 1 (snare) → Zone 2 (2/4 mallets) → Zone 3 (timpani) → back to Zone 1
 
 All room have two sign-in times to keep students in the audition room for less time.
 
