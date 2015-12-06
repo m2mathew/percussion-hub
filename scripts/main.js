@@ -2,8 +2,31 @@
 let React = require('react');
 let ReactDOM = require('react-dom');
 let Backbone = require('backbone');
+let Parse = require('./keys');
 
 window.$ = require('jquery');
 window.jQuery = $;
-Parse.initialize("ojxAI7TJorc3fVboJ9utxlGJFh3N12NR0qr7JEhp", "oMTauokDLBsa1KvvuKuBwOQaUJAlby6bSZN7QTyM");
 
+let HomeComponent = require('./components/HomeComponent');
+let NavigationComponent = require('./components/NavigationComponent');
+
+let app = document.getElementById('app');
+let nav = document.getElementById('nav');
+
+let Router = Backbone.Router.extend({
+	routes: {
+		'': 'home'
+	},
+	home: () => {
+		ReactDOM.render(
+			<HomeComponent />, app
+		);
+	}
+});
+
+let r = new Router;
+Backbone.history.start();
+
+ReactDOM.render(
+	<NavigationComponent router={r} />, nav
+);
