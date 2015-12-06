@@ -1,4 +1,25 @@
-# Region 3 - All-Region Percussion Auditions
+# Region 3 Percussion
+
+An application for Region 3 Percussion teachers, students, and patrons.
+
+
+### History
+
+Some history of percussion happenings in Region 3
+
+
+### Schools
+
+A list of schools in Region 3 including:
+
+* Classification (eg., 4A, 5A, etc.)
+
+* Teachers - both current and historical
+
+* Accolades
+
+
+### All-Region Percussion Auditions
 
 Annually hosted by the [Berkner HS band](http://berknerband.com/home/) in Richardson, TX
 
