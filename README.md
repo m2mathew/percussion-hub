@@ -1,11 +1,16 @@
 # Region 3 Percussion
 
-An application for Region 3 Percussion teachers, students, and patrons.
+An application for Percussion teachers, students, and patrons.
+
+
+### Scope
+
+This early working example is limited to Region 3 on the East side of the Dallas, Texas
 
 
 ### History
 
-Some history of percussion happenings in Region 3
+Some history of percussion happenings in
 
 
 ### Schools
@@ -21,7 +26,7 @@ A list of schools in Region 3 including:
 
 ### All-Region Percussion Auditions
 
-Annually hosted by the [Berkner HS band](http://berknerband.com/home/) in Richardson, TX
+Region 3 - Annually hosted by the [Berkner HS band](http://berknerband.com/home/) in Richardson, TX
 
 
 ### Description
@@ -41,13 +46,11 @@ Results can by sorted by:
 
 ### Percussion Rotation
 
-Zone 1 (snare) → Zone 2 (2/4 mallets) → Zone 3 (timpani) → back to Zone 1
+Region 3 specific - Zone 1 (snare) → Zone 2 (2/4 mallets) → Zone 3 (timpani) → back to Zone 1
 
 All room have two sign-in times to keep students in the audition room for less time.
 
 
-### Fall 2015
+### Region Results
 
-Phase 1 - Saturday, Dec 5, 2015
-
-Phase 2 - Monday, Dec 7, 2015
+December 2015
