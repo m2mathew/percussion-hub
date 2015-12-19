@@ -31868,7 +31868,7 @@ module.exports = React.createClass({
 			React.createElement(
 				'h2',
 				null,
-				'Schools!'
+				'Schools'
 			)
 		);
 	}
