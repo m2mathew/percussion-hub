@@ -1,7 +1,7 @@
 'use strict';
 
-let React = require('react');
-let Backbone = require('backbone');
+const React = require('react');
+const Backbone = require('backbone');
 
 module.exports = React.createClass({
 	componentWillMount() {
@@ -21,7 +21,7 @@ module.exports = React.createClass({
 		return (
 			<div className="nav-wrapper blue darken-4">
 				<div className="brand-logo left">
-					<a href="#">Region 3 Percussion</a>
+					<a href="#">Percussion Hub</a>
 				</div>
 				<ul id="nav-mobile" className="right">
 					{links}

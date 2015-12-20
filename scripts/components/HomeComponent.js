@@ -5,7 +5,6 @@ const AppBar = require('material-ui/lib/app-bar');
 const IconButton = require('material-ui/lib/icon-button');
 
 
-
 module.exports = React.createClass({
 	getInitialState() {
 		return {

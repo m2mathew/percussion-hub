@@ -1,9 +1,9 @@
 'use strict';
-let React = require('react');
-let ReactDOM = require('react-dom');
-let Backbone = require('backbone');
-let Parse = require('./keys');
-let injectTapEventPlugin = require('react-tap-event-plugin');
+const React = require('react');
+const ReactDOM = require('react-dom');
+const Backbone = require('backbone');
+const Parse = require('./keys');
+const injectTapEventPlugin = require('react-tap-event-plugin');
 
 window.$ = require('jquery');
 window.jQuery = $;
