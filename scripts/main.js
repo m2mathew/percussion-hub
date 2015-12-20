@@ -3,6 +3,7 @@ let React = require('react');
 let ReactDOM = require('react-dom');
 let Backbone = require('backbone');
 let Parse = require('./keys');
+let injectTapEventPlugin = require('react-tap-event-plugin');
 
 window.$ = require('jquery');
 window.jQuery = $;
