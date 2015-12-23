@@ -16,8 +16,8 @@ module.exports = React.createClass({
 		return (
 			<div className="container home-component">
 				<div className="row">
-					<h2>All-Region Results</h2>
-
+					<h3>Welcome to Percussion Hub</h3>
+					<p>Find out more about your favorite percussion programs in the area!</p>
 				</div>
 			</div>
 		)

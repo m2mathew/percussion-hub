@@ -4,8 +4,21 @@ body {
 	min-height: 100vh;
 }
 
+nav {
+
+	.brand-logo {
+		margin-left: 0.75em;
+	}
+}
+
 main {
 	flex: 1;
+
+	.school-container {
+		margin: 0 auto;
+		max-width: 80%;
+	}
+
 }
 
 footer {

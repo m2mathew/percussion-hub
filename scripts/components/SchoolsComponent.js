@@ -22,8 +22,8 @@ module.exports = React.createClass({
 
 	render() {
 		return (
-			<div>
-				<h2>Schools</h2>
+			<div className="school-container">
+				<h3>Schools</h3>
 
 				<Table
 					fixedHeader={this.state.fixedHeader}
@@ -138,6 +138,16 @@ module.exports = React.createClass({
 							<TableRowColumn>John Horn HS</TableRowColumn>
 							<TableRowColumn>Mesquite ISD</TableRowColumn>
 							<TableRowColumn>6A</TableRowColumn>
+						</TableRow>
+						<TableRow>
+							<TableRowColumn>Forney HS</TableRowColumn>
+							<TableRowColumn>Forney ISD</TableRowColumn>
+							<TableRowColumn>5A</TableRowColumn>
+						</TableRow>
+						<TableRow>
+							<TableRowColumn>North Forney HS</TableRowColumn>
+							<TableRowColumn>Forney ISD</TableRowColumn>
+							<TableRowColumn>5A</TableRowColumn>
 						</TableRow>
 					</TableBody>
 					<TableFooter>

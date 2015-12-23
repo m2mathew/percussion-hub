@@ -40651,9 +40651,14 @@ module.exports = React.createClass({
 				'div',
 				{ className: 'row' },
 				React.createElement(
-					'h2',
+					'h3',
 					null,
-					'All-Region Results'
+					'Welcome to Percussion Hub'
+				),
+				React.createElement(
+					'p',
+					null,
+					'Find out more about your favorite percussion programs in the area!'
 				)
 			)
 		);
@@ -40753,9 +40758,9 @@ module.exports = React.createClass({
 	render: function render() {
 		return React.createElement(
 			'div',
-			null,
+			{ className: 'school-container' },
 			React.createElement(
-				'h2',
+				'h3',
 				null,
 				'Schools'
 			),
@@ -41146,6 +41151,44 @@ module.exports = React.createClass({
 							TableRowColumn,
 							null,
 							'6A'
+						)
+					),
+					React.createElement(
+						TableRow,
+						null,
+						React.createElement(
+							TableRowColumn,
+							null,
+							'Forney HS'
+						),
+						React.createElement(
+							TableRowColumn,
+							null,
+							'Forney ISD'
+						),
+						React.createElement(
+							TableRowColumn,
+							null,
+							'5A'
+						)
+					),
+					React.createElement(
+						TableRow,
+						null,
+						React.createElement(
+							TableRowColumn,
+							null,
+							'North Forney HS'
+						),
+						React.createElement(
+							TableRowColumn,
+							null,
+							'Forney ISD'
+						),
+						React.createElement(
+							TableRowColumn,
+							null,
+							'5A'
 						)
 					)
 				),
