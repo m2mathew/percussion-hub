@@ -18,6 +18,7 @@ module.exports = React.createClass({
 				<div className="row">
 					<h3>Welcome to Percussion Hub</h3>
 					<p>Find out more about your favorite percussion programs in the area!</p>
+					<a href="#schools">Region 3</a>
 				</div>
 			</div>
 		)
