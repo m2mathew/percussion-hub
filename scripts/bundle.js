@@ -40617,6 +40617,7 @@ module.exports = React.createClass({
 	displayName: 'exports',
 
 	render: function render() {
+
 		return React.createElement(
 			'div',
 			null,
@@ -40659,6 +40660,11 @@ module.exports = React.createClass({
 					'p',
 					null,
 					'Find out more about your favorite percussion programs in the area!'
+				),
+				React.createElement(
+					'a',
+					{ href: '#schools' },
+					'Region 3'
 				)
 			)
 		);
@@ -40790,18 +40796,23 @@ module.exports = React.createClass({
 						null,
 						React.createElement(
 							TableHeaderColumn,
-							{ tooltip: 'School Name' },
+							null,
 							'Name'
 						),
 						React.createElement(
 							TableHeaderColumn,
-							{ tooltip: 'School District' },
+							null,
 							'District'
 						),
 						React.createElement(
 							TableHeaderColumn,
-							{ tooltip: 'Classification' },
+							null,
 							'Classification'
+						),
+						React.createElement(
+							TableHeaderColumn,
+							null,
+							'Link'
 						)
 					)
 				),
@@ -40828,6 +40839,15 @@ module.exports = React.createClass({
 							TableRowColumn,
 							null,
 							'6A'
+						),
+						React.createElement(
+							TableRowColumn,
+							null,
+							React.createElement(
+								'a',
+								{ href: 'http://www.berknerband.com/' },
+								'Website'
+							)
 						)
 					),
 					React.createElement(
@@ -40847,6 +40867,15 @@ module.exports = React.createClass({
 							TableRowColumn,
 							null,
 							'6A'
+						),
+						React.createElement(
+							TableRowColumn,
+							null,
+							React.createElement(
+								'a',
+								{ href: 'http://www.lhabc.org/' },
+								'Website'
+							)
 						)
 					),
 					React.createElement(
@@ -40866,6 +40895,15 @@ module.exports = React.createClass({
 							TableRowColumn,
 							null,
 							'6A'
+						),
+						React.createElement(
+							TableRowColumn,
+							null,
+							React.createElement(
+								'a',
+								{ href: 'http://pearceband.org/' },
+								'Website'
+							)
 						)
 					),
 					React.createElement(
@@ -40885,6 +40923,15 @@ module.exports = React.createClass({
 							TableRowColumn,
 							null,
 							'6A'
+						),
+						React.createElement(
+							TableRowColumn,
+							null,
+							React.createElement(
+								'a',
+								{ href: 'http://www.berknerband.com/' },
+								'Website'
+							)
 						)
 					),
 					React.createElement(
@@ -40904,6 +40951,15 @@ module.exports = React.createClass({
 							TableRowColumn,
 							null,
 							'6A'
+						),
+						React.createElement(
+							TableRowColumn,
+							null,
+							React.createElement(
+								'a',
+								{ href: 'http://www.berknerband.com/' },
+								'Website'
+							)
 						)
 					),
 					React.createElement(
@@ -40923,6 +40979,15 @@ module.exports = React.createClass({
 							TableRowColumn,
 							null,
 							'6A'
+						),
+						React.createElement(
+							TableRowColumn,
+							null,
+							React.createElement(
+								'a',
+								{ href: 'http://www.berknerband.com/' },
+								'Website'
+							)
 						)
 					),
 					React.createElement(
@@ -40942,6 +41007,15 @@ module.exports = React.createClass({
 							TableRowColumn,
 							null,
 							'6A'
+						),
+						React.createElement(
+							TableRowColumn,
+							null,
+							React.createElement(
+								'a',
+								{ href: 'http://www.berknerband.com/' },
+								'Website'
+							)
 						)
 					),
 					React.createElement(
@@ -40961,6 +41035,15 @@ module.exports = React.createClass({
 							TableRowColumn,
 							null,
 							'6A'
+						),
+						React.createElement(
+							TableRowColumn,
+							null,
+							React.createElement(
+								'a',
+								{ href: 'http://www.berknerband.com/' },
+								'Website'
+							)
 						)
 					),
 					React.createElement(
@@ -40980,6 +41063,15 @@ module.exports = React.createClass({
 							TableRowColumn,
 							null,
 							'6A'
+						),
+						React.createElement(
+							TableRowColumn,
+							null,
+							React.createElement(
+								'a',
+								{ href: 'http://www.berknerband.com/' },
+								'Website'
+							)
 						)
 					),
 					React.createElement(
@@ -40999,6 +41091,15 @@ module.exports = React.createClass({
 							TableRowColumn,
 							null,
 							'6A'
+						),
+						React.createElement(
+							TableRowColumn,
+							null,
+							React.createElement(
+								'a',
+								{ href: 'http://www.berknerband.com/' },
+								'Website'
+							)
 						)
 					),
 					React.createElement(
@@ -41018,6 +41119,15 @@ module.exports = React.createClass({
 							TableRowColumn,
 							null,
 							'6A'
+						),
+						React.createElement(
+							TableRowColumn,
+							null,
+							React.createElement(
+								'a',
+								{ href: 'http://www.berknerband.com/' },
+								'Website'
+							)
 						)
 					),
 					React.createElement(
@@ -41037,6 +41147,15 @@ module.exports = React.createClass({
 							TableRowColumn,
 							null,
 							'6A'
+						),
+						React.createElement(
+							TableRowColumn,
+							null,
+							React.createElement(
+								'a',
+								{ href: 'http://www.berknerband.com/' },
+								'Website'
+							)
 						)
 					),
 					React.createElement(
@@ -41056,6 +41175,15 @@ module.exports = React.createClass({
 							TableRowColumn,
 							null,
 							'5A'
+						),
+						React.createElement(
+							TableRowColumn,
+							null,
+							React.createElement(
+								'a',
+								{ href: 'http://www.berknerband.com/' },
+								'Website'
+							)
 						)
 					),
 					React.createElement(
@@ -41075,6 +41203,15 @@ module.exports = React.createClass({
 							TableRowColumn,
 							null,
 							'6A'
+						),
+						React.createElement(
+							TableRowColumn,
+							null,
+							React.createElement(
+								'a',
+								{ href: 'http://www.berknerband.com/' },
+								'Website'
+							)
 						)
 					),
 					React.createElement(
@@ -41094,6 +41231,15 @@ module.exports = React.createClass({
 							TableRowColumn,
 							null,
 							'5A'
+						),
+						React.createElement(
+							TableRowColumn,
+							null,
+							React.createElement(
+								'a',
+								{ href: 'http://www.berknerband.com/' },
+								'Website'
+							)
 						)
 					),
 					React.createElement(
@@ -41113,6 +41259,15 @@ module.exports = React.createClass({
 							TableRowColumn,
 							null,
 							'5A'
+						),
+						React.createElement(
+							TableRowColumn,
+							null,
+							React.createElement(
+								'a',
+								{ href: 'http://www.berknerband.com/' },
+								'Website'
+							)
 						)
 					),
 					React.createElement(
@@ -41132,6 +41287,15 @@ module.exports = React.createClass({
 							TableRowColumn,
 							null,
 							'6A'
+						),
+						React.createElement(
+							TableRowColumn,
+							null,
+							React.createElement(
+								'a',
+								{ href: 'http://www.berknerband.com/' },
+								'Website'
+							)
 						)
 					),
 					React.createElement(
@@ -41151,6 +41315,15 @@ module.exports = React.createClass({
 							TableRowColumn,
 							null,
 							'6A'
+						),
+						React.createElement(
+							TableRowColumn,
+							null,
+							React.createElement(
+								'a',
+								{ href: 'http://www.berknerband.com/' },
+								'Website'
+							)
 						)
 					),
 					React.createElement(
@@ -41170,6 +41343,15 @@ module.exports = React.createClass({
 							TableRowColumn,
 							null,
 							'5A'
+						),
+						React.createElement(
+							TableRowColumn,
+							null,
+							React.createElement(
+								'a',
+								{ href: 'http://www.berknerband.com/' },
+								'Website'
+							)
 						)
 					),
 					React.createElement(
@@ -41189,6 +41371,15 @@ module.exports = React.createClass({
 							TableRowColumn,
 							null,
 							'5A'
+						),
+						React.createElement(
+							TableRowColumn,
+							null,
+							React.createElement(
+								'a',
+								{ href: 'http://www.berknerband.com/' },
+								'Website'
+							)
 						)
 					)
 				),
@@ -41212,6 +41403,11 @@ module.exports = React.createClass({
 							TableRowColumn,
 							null,
 							'Classification'
+						),
+						React.createElement(
+							TableRowColumn,
+							null,
+							'Link'
 						)
 					),
 					React.createElement(

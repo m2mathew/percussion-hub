@@ -40,9 +40,10 @@ module.exports = React.createClass({
 							</TableHeaderColumn>
 						</TableRow>
 						<TableRow>
-							<TableHeaderColumn tooltip='School Name'>Name</TableHeaderColumn>
-							<TableHeaderColumn tooltip='School District'>District</TableHeaderColumn>
-							<TableHeaderColumn tooltip='Classification'>Classification</TableHeaderColumn>
+							<TableHeaderColumn>Name</TableHeaderColumn>
+							<TableHeaderColumn>District</TableHeaderColumn>
+							<TableHeaderColumn>Classification</TableHeaderColumn>
+							<TableHeaderColumn>Link</TableHeaderColumn>
 					  </TableRow>
 					</TableHeader>
 					<TableBody
@@ -53,101 +54,121 @@ module.exports = React.createClass({
 							<TableRowColumn>Berkner HS</TableRowColumn>
 							<TableRowColumn>Richardson ISD</TableRowColumn>
 							<TableRowColumn>6A</TableRowColumn>
+							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>Lake Highlands HS</TableRowColumn>
 							<TableRowColumn>Richardson ISD</TableRowColumn>
 							<TableRowColumn>6A</TableRowColumn>
+							<TableRowColumn><a href="http://www.lhabc.org/">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>J.J. Pearce HS</TableRowColumn>
 							<TableRowColumn>Richardson ISD</TableRowColumn>
 							<TableRowColumn>6A</TableRowColumn>
+							<TableRowColumn><a href="http://pearceband.org/">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>Richardson HS</TableRowColumn>
 							<TableRowColumn>Richardson ISD</TableRowColumn>
 							<TableRowColumn>6A</TableRowColumn>
+							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>Lakeview Centennial HS</TableRowColumn>
 							<TableRowColumn>Garland ISD</TableRowColumn>
 							<TableRowColumn>6A</TableRowColumn>
+							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>Garland HS</TableRowColumn>
 							<TableRowColumn>Garland ISD</TableRowColumn>
 							<TableRowColumn>6A</TableRowColumn>
+							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>Rowlett HS</TableRowColumn>
 							<TableRowColumn>Garland ISD</TableRowColumn>
 							<TableRowColumn>6A</TableRowColumn>
+							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>Naaman Forest HS</TableRowColumn>
 							<TableRowColumn>Garland ISD</TableRowColumn>
 							<TableRowColumn>6A</TableRowColumn>
+							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>Sachse HS</TableRowColumn>
 							<TableRowColumn>Garland ISD</TableRowColumn>
 							<TableRowColumn>6A</TableRowColumn>
+							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>North Garland HS</TableRowColumn>
 							<TableRowColumn>Garland ISD</TableRowColumn>
 							<TableRowColumn>6A</TableRowColumn>
+							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>South Garland HS</TableRowColumn>
 							<TableRowColumn>Garland ISD</TableRowColumn>
 							<TableRowColumn>6A</TableRowColumn>
+							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>Rockwall HS</TableRowColumn>
 							<TableRowColumn>Rockwall ISD</TableRowColumn>
 							<TableRowColumn>6A</TableRowColumn>
+							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>Rockwall-Heath HS</TableRowColumn>
 							<TableRowColumn>Rockwall ISD</TableRowColumn>
 							<TableRowColumn>5A</TableRowColumn>
+							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>Mesquite HS</TableRowColumn>
 							<TableRowColumn>Mesquite ISD</TableRowColumn>
 							<TableRowColumn>6A</TableRowColumn>
+							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>West Mesquite HS</TableRowColumn>
 							<TableRowColumn>Mesquite ISD</TableRowColumn>
 							<TableRowColumn>5A</TableRowColumn>
+							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>Poteet HS</TableRowColumn>
 							<TableRowColumn>Mesquite ISD</TableRowColumn>
 							<TableRowColumn>5A</TableRowColumn>
+							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>North Mesquite HS</TableRowColumn>
 							<TableRowColumn>Mesquite ISD</TableRowColumn>
 							<TableRowColumn>6A</TableRowColumn>
+							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>John Horn HS</TableRowColumn>
 							<TableRowColumn>Mesquite ISD</TableRowColumn>
 							<TableRowColumn>6A</TableRowColumn>
+							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>Forney HS</TableRowColumn>
 							<TableRowColumn>Forney ISD</TableRowColumn>
 							<TableRowColumn>5A</TableRowColumn>
+							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>North Forney HS</TableRowColumn>
 							<TableRowColumn>Forney ISD</TableRowColumn>
 							<TableRowColumn>5A</TableRowColumn>
+							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
 						</TableRow>
 					</TableBody>
 					<TableFooter>
@@ -155,6 +176,7 @@ module.exports = React.createClass({
 							<TableRowColumn>Name</TableRowColumn>
 							<TableRowColumn>District</TableRowColumn>
 							<TableRowColumn>Classification</TableRowColumn>
+							<TableRowColumn>Link</TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn colSpan="3" style={{textAlign: 'center', fontSize: '1em', color: '#000'}}>
