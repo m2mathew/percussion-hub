@@ -7,6 +7,7 @@ const TableHeader = require('material-ui/lib/table/table-header');
 const TableHeaderColumn = require('material-ui/lib/table/table-header-column');
 const TableRow = require('material-ui/lib/table/table-row');
 const TableRowColumn = require('material-ui/lib/table/table-row-column');
+import FlatButton from 'material-ui/lib/flat-button';
 
 module.exports = React.createClass({
 
@@ -54,7 +55,9 @@ module.exports = React.createClass({
 							<TableRowColumn>Berkner HS</TableRowColumn>
 							<TableRowColumn>Richardson ISD</TableRowColumn>
 							<TableRowColumn>6A</TableRowColumn>
-							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
+							<FlatButton linkButton={true} href="http://www.berknerband.com/" secondary={true} label="Website">
+							  <FontIcon style={styles.exampleFlatButtonIcon} className="muidocs-icon-custom-github" />
+							</FlatButton>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>Lake Highlands HS</TableRowColumn>
