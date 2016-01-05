@@ -8,6 +8,7 @@ const TableHeaderColumn = require('material-ui/lib/table/table-header-column');
 const TableRow = require('material-ui/lib/table/table-row');
 const TableRowColumn = require('material-ui/lib/table/table-row-column');
 import FlatButton from 'material-ui/lib/flat-button';
+import FontIcon from 'material-ui/lib/font-icon';
 
 module.exports = React.createClass({
 
@@ -81,43 +82,43 @@ module.exports = React.createClass({
 							<TableRowColumn>Lakeview Centennial HS</TableRowColumn>
 							<TableRowColumn>Garland ISD</TableRowColumn>
 							<TableRowColumn>6A</TableRowColumn>
-							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
+							<TableRowColumn><a href="http://lchspatriotband.com/">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>Garland HS</TableRowColumn>
 							<TableRowColumn>Garland ISD</TableRowColumn>
 							<TableRowColumn>6A</TableRowColumn>
-							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
+							<TableRowColumn><a href="http://mightyowlband.org/">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>Rowlett HS</TableRowColumn>
 							<TableRowColumn>Garland ISD</TableRowColumn>
 							<TableRowColumn>6A</TableRowColumn>
-							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
+							<TableRowColumn><a href="http://www.rowlettmeb.org/">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>Naaman Forest HS</TableRowColumn>
 							<TableRowColumn>Garland ISD</TableRowColumn>
 							<TableRowColumn>6A</TableRowColumn>
-							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
+							<TableRowColumn><a href="http://www.naamanforestband.com/">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>Sachse HS</TableRowColumn>
 							<TableRowColumn>Garland ISD</TableRowColumn>
 							<TableRowColumn>6A</TableRowColumn>
-							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
+							<TableRowColumn><a href="http://sachseband.org/">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>North Garland HS</TableRowColumn>
 							<TableRowColumn>Garland ISD</TableRowColumn>
 							<TableRowColumn>6A</TableRowColumn>
-							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
+							<TableRowColumn><a href="http://nghsband.org/">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>South Garland HS</TableRowColumn>
 							<TableRowColumn>Garland ISD</TableRowColumn>
 							<TableRowColumn>6A</TableRowColumn>
-							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
+							<TableRowColumn><a href="http://www.garlandisdschools.net/page.cfm?p=86">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>Rockwall HS</TableRowColumn>

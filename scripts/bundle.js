@@ -41104,6 +41104,10 @@ var _materialUiLibFlatButton = require('material-ui/lib/flat-button');
 
 var _materialUiLibFlatButton2 = _interopRequireDefault(_materialUiLibFlatButton);
 
+var _materialUiLibFontIcon = require('material-ui/lib/font-icon');
+
+var _materialUiLibFontIcon2 = _interopRequireDefault(_materialUiLibFontIcon);
+
 var React = require('react');
 var Table = require('material-ui/lib/table/table');
 var TableBody = require('material-ui/lib/table/table-body');
@@ -41208,7 +41212,7 @@ module.exports = React.createClass({
 						React.createElement(
 							_materialUiLibFlatButton2['default'],
 							{ linkButton: true, href: 'http://www.berknerband.com/', secondary: true, label: 'Website' },
-							React.createElement(FontIcon, { style: styles.exampleFlatButtonIcon, className: 'muidocs-icon-custom-github' })
+							React.createElement(_materialUiLibFontIcon2['default'], { style: styles.exampleFlatButtonIcon, className: 'muidocs-icon-custom-github' })
 						)
 					),
 					React.createElement(
@@ -41786,7 +41790,7 @@ module.exports = React.createClass({
 	}
 });
 
-},{"material-ui/lib/flat-button":12,"material-ui/lib/table/table":42,"material-ui/lib/table/table-body":36,"material-ui/lib/table/table-footer":37,"material-ui/lib/table/table-header":39,"material-ui/lib/table/table-header-column":38,"material-ui/lib/table/table-row":41,"material-ui/lib/table/table-row-column":40,"react":239}],244:[function(require,module,exports){
+},{"material-ui/lib/flat-button":12,"material-ui/lib/font-icon":13,"material-ui/lib/table/table":42,"material-ui/lib/table/table-body":36,"material-ui/lib/table/table-footer":37,"material-ui/lib/table/table-header":39,"material-ui/lib/table/table-header-column":38,"material-ui/lib/table/table-row":41,"material-ui/lib/table/table-row-column":40,"react":239}],244:[function(require,module,exports){
 "use strict";
 
 Parse.initialize("ojxAI7TJorc3fVboJ9utxlGJFh3N12NR0qr7JEhp", "oMTauokDLBsa1KvvuKuBwOQaUJAlby6bSZN7QTyM");
