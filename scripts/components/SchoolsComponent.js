@@ -124,43 +124,43 @@ module.exports = React.createClass({
 							<TableRowColumn>Rockwall HS</TableRowColumn>
 							<TableRowColumn>Rockwall ISD</TableRowColumn>
 							<TableRowColumn>6A</TableRowColumn>
-							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
+							<TableRowColumn><a href="http://www.rockwallhsband.com/">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>Rockwall-Heath HS</TableRowColumn>
 							<TableRowColumn>Rockwall ISD</TableRowColumn>
 							<TableRowColumn>5A</TableRowColumn>
-							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
+							<TableRowColumn><a href="http://www.mightyhawkband.org/">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>Mesquite HS</TableRowColumn>
 							<TableRowColumn>Mesquite ISD</TableRowColumn>
 							<TableRowColumn>6A</TableRowColumn>
-							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
+							<TableRowColumn><a href="http://www.mesquiteisd.org/mhs/mhs/mhs/student-life/fine-arts/">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>West Mesquite HS</TableRowColumn>
 							<TableRowColumn>Mesquite ISD</TableRowColumn>
 							<TableRowColumn>5A</TableRowColumn>
-							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
+							<TableRowColumn><a href="http://www.burntorangeband.org/">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>Poteet HS</TableRowColumn>
 							<TableRowColumn>Mesquite ISD</TableRowColumn>
 							<TableRowColumn>5A</TableRowColumn>
-							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
+							<TableRowColumn><a href="http://www.poteetpirateband.org/">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>North Mesquite HS</TableRowColumn>
 							<TableRowColumn>Mesquite ISD</TableRowColumn>
 							<TableRowColumn>6A</TableRowColumn>
-							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
+							<TableRowColumn><a href="http://gobigblueband.com/">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>John Horn HS</TableRowColumn>
 							<TableRowColumn>Mesquite ISD</TableRowColumn>
 							<TableRowColumn>6A</TableRowColumn>
-							<TableRowColumn><a href="http://www.berknerband.com/">Website</a></TableRowColumn>
+							<TableRowColumn><a href="http://www.jaguarband.com/">Website</a></TableRowColumn>
 						</TableRow>
 						<TableRow>
 							<TableRowColumn>Forney HS</TableRowColumn>
