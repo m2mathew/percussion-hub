@@ -191,6 +191,7 @@ module.exports = React.createClass({
 				</Table>
 			</div>
 		);
-	}
+	},
+
 });
 

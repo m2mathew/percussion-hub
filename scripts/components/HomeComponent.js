@@ -11,6 +11,7 @@ module.exports = React.createClass({
 
 		};
 	},
+
 	render() {
 
 		return (
@@ -22,5 +23,6 @@ module.exports = React.createClass({
 				</div>
 			</div>
 		)
-	}
+	},
+
 });

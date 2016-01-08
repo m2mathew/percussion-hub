@@ -9,6 +9,7 @@ module.exports = React.createClass({
 			this.forceUpdate();
 		});
 	},
+
 	render() {
 		let currentPage = Backbone.history.getFragment();
 
@@ -28,5 +29,6 @@ module.exports = React.createClass({
 				</ul>
 			</div>
 		);
-	}
+	},
+
 });
