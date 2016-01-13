@@ -4,6 +4,7 @@ const React = require('react');
 const Backbone = require('backbone');
 
 module.exports = React.createClass({
+
 	componentWillMount() {
 		this.props.router.on('route', () => {
 			this.forceUpdate();
